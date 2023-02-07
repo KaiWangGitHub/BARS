@@ -12,10 +12,10 @@
 **BARS** is a general local robustness certification framework for Deep Learning (DL) based traffic analysis systems based on **B**oundary **A**daptive **R**andomized **S**moothing. Against adversarial perturbations, local robustness certification is used to certify whether a DL-based model is robust in the neighborhood of a sample.
 
 **BARS** optimizes the smoothing noise of randomized smoothing and provide tighter robustness guarantee for the traffic analysis domain. The pipeline includes four steps:
-- Build Distribution Transformer.
-- Optimize the noise shape.
-- Optimize the noise scale.
-- Certify robustness.
+- [Build Distribution Transformer.](bars/distribution_transformer.py)
+- [Optimize the noise shape.](bars/optimizing_noise.py)
+- [Optimize the noise scale.](bars/optimizing_noise.py)
+- [Certify robustness.](bars/smoothing.py)
 
 **BARS** supports three traffic analysis systems:
 - [Zero-Positive  Network Intrusion Detection System, Kitsune (NDSS'18)](smoothed_kitsune)
