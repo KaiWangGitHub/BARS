@@ -22,12 +22,20 @@
 - [Concept Drift Detection System, CADE (USENIX Security'21)](smoothed_cade)
 - [Supervised Multi-Classification System, ACID (INFOCOM'21)](smoothed_acid)
 
-## Environmental Setup
+## Quick Start
+
+### 1. Environmental Setup
 
 - Basic **BARS**: `pip install -r requirement_bars.txt`
 - Smoothed Kitsune: `pip install -r requirement_kitsune.txt`
 - Smoothed CADE: `pip install -r requirement_cade.txt`
 - Smoothed ACID: `pip install -r requirement_acid.txt`
+
+### 2. Running Program
+
+- Please run `python main.py`.
+
+- Program arguments are set at the beginning of `main.py`.
 
 ## Citation
 TBA.
