@@ -7,6 +7,12 @@
 
 > *BARS: Local Robustness Certification for Deep Learning based Traffic Analysis Systems (NDSS'23)*
 
+---
+
+![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+![Python language](https://img.shields.io/badge/language-Python-blue.svg)
+![PyTorch framework](https://img.shields.io/badge/framework-PyTorch-orange.svg)
+
 ## Introduction
 
 **BARS** is a general local robustness certification framework for Deep Learning (DL) based traffic analysis systems based on **B**oundary **A**daptive **R**andomized **S**moothing. Against adversarial perturbations, local robustness certification is used to certify whether a DL-based model is robust in the neighborhood of a sample.
